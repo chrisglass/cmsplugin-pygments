@@ -14,6 +14,9 @@ setup(
     author_email = 'oyvind.saltvik@gmail.com',
     packages = find_packages('.'),
     package_dir = {'':'.'},
+    install_requires=[
+        'pygments',
+    ],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Framework :: Django',
