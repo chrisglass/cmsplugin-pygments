@@ -1,6 +1,6 @@
 from django.db import models
 from cms.models import CMSPlugin
-from pygments.style import STYLE_MAP
+from pygments.styles import STYLE_MAP
 
 STYLE_CHOICES = map(lambda x: (x,x), STYLE_MAP.keys())
 
