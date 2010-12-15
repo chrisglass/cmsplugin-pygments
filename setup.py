@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "cmsplugin-pygments",
-    version = "0.7.0",
+    version = "0.7.1",
     url = 'http://github.com/fivethreeo/cmsplugin-pygments',
     license = 'BSD',
     description = "django-cms plugin for pygments",
@@ -27,5 +27,10 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
     ],
     include_package_data=True,
+    package_data={
+        'cmsplugin_pygments': [
+            'templates/cmsplugin_pygments/*.html',
+        ]
+    },
     zip_safe = False
 )
