@@ -12,7 +12,7 @@ setup(
     description = "django-cms plugin for pygments",
     author = 'Oyvind Saltvik',
     author_email = 'oyvind.saltvik@gmail.com',
-    packages = find_packages()
+    packages = find_packages(),
     install_requires=[
         'pygments',
     ],
