@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "cmsplugin-pygments",
-    version = "0.7.2",
+    version = "0.7.3",
     url = 'http://github.com/fivethreeo/cmsplugin-pygments',
     license = 'BSD',
     description = "django-cms plugin for pygments",
